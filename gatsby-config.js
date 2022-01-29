@@ -19,8 +19,8 @@ module.exports = {
     {
       resolve: "gatsby-source-sanity",
       options: {
-        projectId: "<yourProjectId>",
-        dataset: "<yourDatasetName>",
+        projectId: "2wac8h85",
+        dataset: "<rxdim",
       },
     }, 
     {
@@ -47,6 +47,16 @@ module.exports = {
         theme_color: '#663399',
         display: 'minimal-ui',
         icon: 'static/assets/gatsby-icon.png', // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: "gatsby-source-sanity",
+      options: {
+        projectId: "2wac8h85",
+        dataset: "public",
+        watchMode: true,
+        overlayDrafts: true,
+        token: process.env.skF5onBG4YiOlyKSOojAKWYXhNhRNCvqNTrzERZ1x04VvupDsvo1O8pCZ5wS2wCTWcvVkeqAB5rWHhPEKhmTS7aaUg6Se1lFF8PB5uQHdXJqbTcE2As8TFKdwA5BJFXW9wSqmEsqhTCtgqZQefyv4AN6zzip76QhGHEM4y0NOUoFC4Wq3BTW,
       },
     },
     {
