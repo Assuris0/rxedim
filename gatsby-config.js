@@ -56,7 +56,7 @@ module.exports = {
         dataset: "public",
         watchMode: true,
         overlayDrafts: true,
-        token: skF5onBG4YiOlyKSOojAKWYXhNhRNCvqNTrzERZ1x04VvupDsvo1O8pCZ5wS2wCTWcvVkeqAB5rWHhPEKhmTS7aaUg6Se1lFF8PB5uQHdXJqbTcE2As8TFKdwA5BJFXW9wSqmEsqhTCtgqZQefyv4AN6zzip76QhGHEM4y0NOUoFC4Wq3BTW,
+        token: process.env.SANITY_READ_TOKEN=skF5onBG4YiOlyKSOojAKWYXhNhRNCvqNTrzERZ1x04VvupDsvo1O8pCZ5wS2wCTWcvVkeqAB5rWHhPEKhmTS7aaUg6Se1lFF8PB5uQHdXJqbTcE2As8TFKdwA5BJFXW9wSqmEsqhTCtgqZQefyv4AN6zzip76QhGHEM4y0NOUoFC4Wq3BTW,
       },
     },
     {
