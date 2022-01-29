@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: "Donald Boulton - Dimension V4",
-    author: "Donald Boulton",
+    title: "Prescription Earth",
+    author: "Wes Anderson",
     siteUrl: "https://donboulton.com",
     siteImage: "/static/assets/bg.jpg",
-    description: "A Gatsby.js V4 Starter based on Dimension by HTML5 UP"
+    description: "Prescription Earth Website"
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -16,6 +16,13 @@ module.exports = {
         name: `assets`,
       },
     },
+    {
+      resolve: "gatsby-source-sanity",
+      options: {
+        projectId: "<yourProjectId>",
+        dataset: "<yourDatasetName>",
+      },
+    }, 
     {
       resolve: `gatsby-plugin-sharp`,
       options: {
