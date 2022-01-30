@@ -20,7 +20,7 @@ module.exports = {
       resolve: "gatsby-source-sanity",
       options: {
         projectId: "2wac8h85",
-        dataset: "<rxdim",
+        dataset: "rxdim",
       },
     }, 
     {
